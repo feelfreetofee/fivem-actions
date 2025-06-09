@@ -14,4 +14,4 @@ set fivem-action_token "SECRET_PASSWORD"
 
 ensure fivem-action
 ```
-https://github.com/user-attachments/assets/1c1ad5e9-ea12-4d30-9344-b26a2bf242a0
+![fivem-actions](https://github.com/user-attachments/assets/e388a4ce-9f25-49f6-a231-c5240593f559)
