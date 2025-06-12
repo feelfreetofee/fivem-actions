@@ -11,7 +11,7 @@ serve(function(request) {
     if (spawnSync('git', ['pull'], {
         cwd: `resources/[${owner}]/${repo}`
     }).status !== 0)
-        spawnSync('git', ['clone', `https://github.com/${owner}/${repo}`, `[${owner}]/${repo}`], {
+        spawnSync('git', ['clone', `git@github.com:${owner}/${repo}.git`, `[${owner}]/${repo}`], {
             cwd: 'resources'
         })
 
